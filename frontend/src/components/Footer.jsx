@@ -119,7 +119,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} PyTech Digital. All rights reserved.
+              © {currentYear} PyTech Digital Pvt. Ltd. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link to="/privacy" className="text-gray-400 hover:text-[#2E5BFF] text-sm transition-colors">
