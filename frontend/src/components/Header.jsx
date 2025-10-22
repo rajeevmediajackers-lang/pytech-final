@@ -34,7 +34,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img
-              src="https://customer-assets.emergentagent.com/job_webtech-masters/artifacts/ib6o5403_logo-pytech.png"
+              src="https://customer-assets.emergentagent.com/job_webtech-masters/artifacts/hbhnkn90_logo3-pytech.png"
               alt="PyTech Digital"
               className="h-10 w-auto"
             />
