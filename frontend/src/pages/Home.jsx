@@ -138,7 +138,7 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-[#0A2463] mb-6">
-                Why Choose PyTech Digital Pvt. Ltd.?
+                Why Choose PyTech Digital?
               </h2>
               <p className="text-xl text-gray-600 mb-8">
                 We combine technical expertise with strategic thinking to deliver solutions that drive real business results.
