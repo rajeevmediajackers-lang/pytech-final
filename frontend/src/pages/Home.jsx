@@ -69,15 +69,6 @@ const Home = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
-            Engineering Digital
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#2E5BFF] to-[#06D6A0]">
-              Excellence
-            </span>
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
-            Transforming businesses through innovative technology solutions and strategic digital expertise
-          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
