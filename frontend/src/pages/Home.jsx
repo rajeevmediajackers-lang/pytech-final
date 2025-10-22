@@ -69,25 +69,8 @@ const Home = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-[#2E5BFF] hover:bg-[#1e4bd6] text-white font-semibold px-8 py-6 text-lg rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl"
-            >
-              Start Your Project
-              <ArrowRight className="ml-2" size={20} />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-[#0A2463] font-semibold px-8 py-6 text-lg rounded-lg transition-all duration-300 hover:scale-105"
-            >
-              Explore Services
-            </Button>
-          </div>
-
           {/* Client Logos */}
-          <div className="mt-16">
+          <div className="pt-[100px]">
             <p className="text-gray-300 text-sm mb-6">TRUSTED BY LEADING COMPANIES</p>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-70">
               {clientLogos.slice(0, 5).map((client) => (
