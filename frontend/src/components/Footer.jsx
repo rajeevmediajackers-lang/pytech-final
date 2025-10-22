@@ -34,6 +34,7 @@ const Footer = () => {
               alt="PyTech Digital"
               className="h-10 w-auto mb-4 brightness-0 invert"
             />
+            <h3 className="text-lg font-semibold text-white mb-2">PyTech Digital Pvt. Ltd.</h3>
             <p className="text-gray-300 mb-4">
               Engineering Digital Excellence for Forward-Thinking Businesses
             </p>
