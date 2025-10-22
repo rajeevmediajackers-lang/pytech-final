@@ -89,7 +89,7 @@ export const whyChooseUs = [
   },
   {
     title: 'Transparent Pricing',
-    description: 'Clear, upfront pricing with no hidden costs. You always know what you're paying for.',
+    description: 'Clear, upfront pricing with no hidden costs. You always know what you are paying for.',
     icon: 'DollarSign'
   },
   {
