@@ -52,15 +52,30 @@ const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Video Background */}
         <div className="absolute inset-0 z-0">
+          {/* Desktop/Tablet Video */}
           <video
             autoPlay
             loop
             muted
             playsInline
-            className="w-full h-full object-cover"
+            className="hidden md:block w-full h-full object-cover"
           >
             <source
               src="https://customer-assets.emergentagent.com/job_webtech-masters/artifacts/xskr1q1l_gits%20digital%20%281%29.mp4"
+              type="video/mp4"
+            />
+          </video>
+          
+          {/* Mobile Video */}
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="block md:hidden w-full h-full object-cover"
+          >
+            <source
+              src="https://customer-assets.emergentagent.com/job_webtech-masters/artifacts/i52spw1r_gits%20digital%20-%20mobile.mp4"
               type="video/mp4"
             />
           </video>
