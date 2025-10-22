@@ -64,22 +64,6 @@ const Home = () => {
               type="video/mp4"
             />
           </video>
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0A2463]/80 via-[#0A2463]/70 to-[#0A2463]/90"></div>
-        </div>
-
-        {/* Hero Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          {/* Client Logos */}
-          <div className="pt-[100px]">
-            <p className="text-gray-300 text-sm mb-6">TRUSTED BY LEADING COMPANIES</p>
-            <div className="flex flex-wrap justify-center items-center gap-8 opacity-70">
-              {clientLogos.slice(0, 5).map((client) => (
-                <div key={client.name} className="text-white/60 font-semibold text-sm">
-                  {client.name}
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
 
         {/* Scroll Indicator */}
