@@ -152,11 +152,11 @@ export const portfolioProjects = [
   },
   {
     id: 6,
-    title: 'ZenFlow - Yoga & Wellness App',
-    client: 'ZenFlow Studio',
+    title: 'TonYoga - Yoga & Wellness App',
+    client: 'TonYoga Studio',
     industry: 'Yoga & Wellness',
     description: 'Comprehensive yoga platform featuring live classes, meditation guides, progress tracking, and community features.',
-    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop',
+    image: 'https://customer-assets.emergentagent.com/job_webtech-masters/artifacts/l1hf4egp_11.png',
     results: '200K+ monthly active users',
     technologies: ['React Native', 'Node.js', 'MongoDB', 'Stripe']
   }
