@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+
+# Allow all other pages
+Allow: /
+
+Sitemap: https://pytechdigital.com/sitemap.xml
