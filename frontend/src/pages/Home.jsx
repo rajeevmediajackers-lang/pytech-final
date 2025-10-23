@@ -75,7 +75,7 @@ const Home = () => {
             className="block md:hidden w-full h-full object-cover"
           >
             <source
-              src="https://customer-assets.emergentagent.com/job_webtech-masters/artifacts/i52spw1r_gits%20digital%20-%20mobile.mp4"
+              src="https://customer-assets.emergentagent.com/job_webtech-masters/artifacts/j4gsw1vs_gits%20digital%20-%20mobile%20%28Mobile%20Video%29.mp4"
               type="video/mp4"
             />
           </video>
