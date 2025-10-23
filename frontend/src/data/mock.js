@@ -157,7 +157,7 @@ export const portfolioProjects = [
     industry: 'Yoga & Wellness',
     description: 'Comprehensive yoga platform featuring live classes, meditation guides, progress tracking, and community features.',
     image: 'https://customer-assets.emergentagent.com/job_webtech-masters/artifacts/l1hf4egp_11.png',
-    results: '200K+ monthly active users',
+    results: '5000+ monthly active users',
     technologies: ['React Native', 'Node.js', 'MongoDB', 'Stripe']
   }
 ];
