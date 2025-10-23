@@ -139,6 +139,26 @@ export const portfolioProjects = [
     image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&h=600&fit=crop',
     results: '100K+ enrolled students',
     technologies: ['React', 'Django', 'WebRTC', 'MySQL']
+  },
+  {
+    id: 5,
+    title: 'WanderWorld - Travel Booking Platform',
+    client: 'WanderWorld Tourism',
+    industry: 'Tour & Travel',
+    description: 'All-in-one travel booking platform with personalized itineraries, real-time availability, and secure payments.',
+    image: 'https://images.unsplash.com/photo-1488085061387-422e29b40080?w=800&h=600&fit=crop',
+    results: '85% booking conversion rate',
+    technologies: ['Vue.js', 'Laravel', 'Stripe', 'Google Maps API']
+  },
+  {
+    id: 6,
+    title: 'ZenFlow - Yoga & Wellness App',
+    client: 'ZenFlow Studio',
+    industry: 'Yoga & Wellness',
+    description: 'Comprehensive yoga platform featuring live classes, meditation guides, progress tracking, and community features.',
+    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop',
+    results: '200K+ monthly active users',
+    technologies: ['React Native', 'Node.js', 'MongoDB', 'Stripe']
   }
 ];
 
