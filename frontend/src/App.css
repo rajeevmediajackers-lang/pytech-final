@@ -24,6 +24,11 @@
   animation: fade-in 1s ease-out;
 }
 
+/* Hide Emergent Badge */
+#emergent-badge {
+  display: none !important;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
