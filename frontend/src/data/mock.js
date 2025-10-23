@@ -149,6 +149,7 @@ export const technologies = [
   { name: 'Angular', category: 'Frontend' },
   { name: 'Node.js', category: 'Backend' },
   { name: 'Python', category: 'Backend' },
+  { name: '.NET', category: 'Backend' },
   { name: 'Django', category: 'Backend' },
   { name: 'FastAPI', category: 'Backend' },
   { name: 'Flutter', category: 'Mobile' },
