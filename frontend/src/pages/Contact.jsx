@@ -211,7 +211,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-bold text-[#0A2463] mb-2">Head Office</h3>
                       <p className="text-gray-600">
-                        1st Floor, Plot No. 21 & 21A,<br />
+                        2nd Floor, Plot No. 21 & 21A,<br />
                         Sector 142, Noida,<br />
                         Uttar Pradesh 201304
                       </p>
