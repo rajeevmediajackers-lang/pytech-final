@@ -32,9 +32,9 @@ const About = () => {
 
   const team = [
     {
-      name: 'Rajesh Kumar',
-      position: 'CEO & Founder',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop',
+      name: 'Rajeev Kumar',
+      position: 'Director & CEO',
+      image: 'https://customer-assets.emergentagent.com/job_webtech-masters/artifacts/v2c3hvi9_Gemini_Generated_Image_9xi1vk9xi1vk9xi1.png',
       bio: '15+ years in tech leadership'
     },
     {
@@ -50,9 +50,9 @@ const About = () => {
       bio: 'Award-winning UX designer'
     },
     {
-      name: 'Neha Gupta',
+      name: 'Neha',
       position: 'Head of Development',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop',
+      image: 'https://customer-assets.emergentagent.com/job_webtech-masters/artifacts/srxkeado_neha.png',
       bio: 'Full-stack development expert'
     }
   ];
