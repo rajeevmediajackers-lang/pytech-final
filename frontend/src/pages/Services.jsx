@@ -63,7 +63,7 @@ const Services = () => {
                   <Button
                     className="w-full bg-[#2E5BFF] hover:bg-[#1e4bd6] text-white font-semibold py-3 rounded-lg transition-all duration-300 hover:scale-105"
                   >
-                    Learn More
+                    Know More
                     <ArrowRight className="ml-2" size={20} />
                   </Button>
                 </CardContent>
