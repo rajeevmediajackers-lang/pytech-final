@@ -5,6 +5,7 @@ import * as LucideIcons from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
+import SEO from '../components/SEO';
 import {
   companyStats,
   services,
@@ -46,8 +47,43 @@ const Home = () => {
     return Icon ? <Icon size={32} /> : null;
   };
 
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PyTech Digital Pvt. Ltd.",
+    "url": "https://pytechdigital.com",
+    "logo": "https://pytechdigital.com/logo.png",
+    "description": "Leading IT services company offering web development, mobile apps, custom software, digital marketing, and more.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2nd Floor, Plot No. 21 & 21A, Sector 142",
+      "addressLocality": "Noida",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "201304",
+      "addressCountry": "IN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9205-222-170",
+      "contactType": "customer service"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/pytechdigital",
+      "https://twitter.com/pytechdigital",
+      "https://www.facebook.com/pytechdigital"
+    ]
+  };
+
   return (
     <div className="min-h-screen">
+      <SEO
+        title="PyTech Digital - Leading IT Services Company in Noida | Web & Mobile Development"
+        description="PyTech Digital offers comprehensive IT services including web development, mobile app development, custom software, digital marketing, cybersecurity, and cloud solutions. 500+ projects delivered with 98% client satisfaction."
+        keywords="IT services company Noida, web development India, mobile app development, custom software development, digital marketing services, cybersecurity, cloud services, PyTech Digital"
+        url="/"
+        schema={organizationSchema}
+      />
+      
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Video Background */}
@@ -137,7 +173,7 @@ const Home = () => {
                     to="/services"
                     className="inline-flex items-center text-[#2E5BFF] font-semibold hover:gap-2 transition-all"
                   >
-                    Learn More
+                    Know More
                     <ArrowRight size={16} className="ml-1" />
                   </Link>
                 </CardContent>
